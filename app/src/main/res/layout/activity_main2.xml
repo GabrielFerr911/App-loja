@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#206171"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="384dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:background="#031C27"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/categoryTitle"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/categoryMonitor"
+        android:layout_width="155dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="#031C27"
+        android:text="@string/categoryMonitor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/catergoryPc"
+        android:layout_width="155dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#031C27"
+        android:text="@string/categoryPC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/categoryMonitor" />
+
+    <Button
+        android:id="@+id/categoryKeyboard"
+        android:layout_width="155dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#031C27"
+        android:text="@string/categoryKeyboard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catergoryPc" />
+
+    <Button
+        android:id="@+id/categoryQuit"
+        android:layout_width="155dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="604dp"
+        android:backgroundTint="#980000"
+        android:text="@string/quit"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

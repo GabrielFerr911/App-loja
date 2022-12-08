@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="mainTitle">Loja de Computador</string>
+    <string name="enter">Entrar</string>
+    <string name="quit">Sair</string>
+    <string name="categoryTitle">CATEGORIAS</string>
+    <string name="categoryMonitor">MONITORES</string>
+    <string name="categoryKeyboard">TECLADOS</string>
+    <string name="categoryPC">PC</string>
+    <string name="quant">QUANT:</string>
+    <string name="concluir">CONCLUIR</string>
+    <string name="titleFinal">FINALIZAR COMPRA</string>
+</resources>

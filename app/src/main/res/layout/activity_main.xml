@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#206171"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/principalTitle"
+        android:layout_width="339dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="172dp"
+        android:background="#031C27"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/mainTitle"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/inicialButtonEnter"
+        android:layout_width="155dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="356dp"
+        android:backgroundTint="#031C27"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/enter"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/inicialButtonQuit"
+        android:layout_width="155dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#980000"
+        android:text="@string/quit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inicialButtonEnter" />
+</androidx.constraintlayout.widget.ConstraintLayout>

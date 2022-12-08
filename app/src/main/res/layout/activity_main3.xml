@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#206171"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/titleMonitor"
+        android:layout_width="256dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        android:background="#031C27"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/categoryMonitor"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/endMonitor"
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="524dp"
+        android:backgroundTint="#259E08"
+        android:text="CONCLUIR"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/quitMonitor"
+        android:layout_width="111dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="524dp"
+        android:backgroundTint="#980000"
+        android:text="VOLTAR"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textPriceItem1Keyboard"
+        android:layout_width="143dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="104dp"
+        android:background="#031C27"
+        android:text="PREÇO: R$ 800"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="97dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="24dp"
+        android:background="#031C27"
+        android:text="@string/quant"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPriceItem3Monitor" />
+
+    <EditText
+        android:id="@+id/quantItem2Monitores"
+        android:layout_width="108dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/textPriceItem2Monitor" />
+
+    <Button
+        android:id="@+id/minunItem1Monitor"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="#980000"
+        android:text="-"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/minunItem2Monitor"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="284dp"
+        android:layout_marginTop="332dp"
+        android:backgroundTint="#980000"
+        android:text="-"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="97dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="16dp"
+        android:background="#031C27"
+        android:text="@string/quant"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPriceItem2Monitor" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="97dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="4dp"
+        android:background="#031C27"
+        android:text="@string/quant"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPriceItem1Keyboard" />
+
+    <ImageView
+        android:id="@+id/imageItem3Monitor"
+        android:layout_width="157dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="44dp"
+        android:background="#031C27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageItem2Monitor"
+        app:srcCompat="@drawable/img_2" />
+
+    <EditText
+        android:id="@+id/quantItem3Monitores"
+        android:layout_width="108dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/textPriceItem3Monitor" />
+
+    <Button
+        android:id="@+id/plusItem1Monitor"
+        android:layout_width="87dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="#259E08"
+        android:text="+"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/minunItem3Monitor"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="296dp"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="#980000"
+        android:text="-"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageItem2Monitor"
+        android:layout_width="153dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:background="#031C27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageItem1Monitor"
+        app:srcCompat="@drawable/img_1" />
+
+    <Button
+        android:id="@+id/plusItem2Monitor"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="332dp"
+        android:backgroundTint="#259E08"
+        android:text="+"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textPriceItem3Monitor"
+        android:layout_width="143dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="108dp"
+        android:background="#031C27"
+        android:text="PREÇO: R$ 600"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPriceItem2Monitor" />
+
+    <Button
+        android:id="@+id/plusItem3Monitor"
+        android:layout_width="87dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="#259E08"
+        android:text="+"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/quantItem1Monitores"
+        android:layout_width="108dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:inputType="number"
+        android:text="0"
+        android:textAlignment="center"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textPriceItem1Keyboard" />
+
+    <TextView
+        android:id="@+id/textPriceItem2Monitor"
+        android:layout_width="143dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="112dp"
+        android:background="#031C27"
+        android:text="PREÇO: R$ 700"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPriceItem1Keyboard" />
+
+    <ImageView
+        android:id="@+id/imageItem1Monitor"
+        android:layout_width="153dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="104dp"
+        android:background="#031C27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#206171"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="384dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="60dp"
+        android:background="#031C27"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/titleFinal"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/quantItensKeyboard"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="292dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="QUANTIDADE"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="292dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="TECLADO"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/totalPriceKeyboard"
+        android:layout_width="85dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="292dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="TOTAL"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="PC"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/quantItensPC"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="QUANTIDADE"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/totalPricePC"
+        android:layout_width="85dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="TOTAL"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="MONITOR"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/totalPriceMonitor"
+        android:layout_width="85dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="308dp"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="TOTAL"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/quantItensMonitor"
+        android:layout_width="132dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="148dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="QUANTIDADE"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/finalPrice"
+        android:layout_width="131dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="348dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titlePC"
+        android:layout_width="123dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="348dp"
+        android:background="#031C27"
+        android:fontFamily="sans-serif-medium"
+        android:text="TOTAL: "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="488dp"
+        android:backgroundTint="#980000"
+        android:text="@string/quit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/finalizeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="428dp"
+        android:backgroundTint="#259E08"
+        android:text="@string/titleFinal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
